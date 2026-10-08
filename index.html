@@ -1,0 +1,46 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="icon" type="image/svg+xml" href="data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 100 100%22><text y=%22.9em%22 font-size=%2290%22>⏳</text></svg>" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+    <title>Time-Shift Maze | Quantum Temporal Labyrinth</title>
+    <meta name="description" content="A mind-bending puzzle labyrinth where you shift across parallel timelines (Past and Future) to bypass walls, collect chronospheres, and reach the temporal portal." />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Orbitron:wght@400;600;800;900&family=Rajdhani:wght@500;600;700&family=Share+Tech+Mono&display=swap" rel="stylesheet">
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script>
+      tailwind.config = {
+        theme: {
+          extend: {
+            fontFamily: {
+              orbitron: ['Orbitron', 'sans-serif'],
+              rajdhani: ['Rajdhani', 'sans-serif'],
+              mono: ['"Share Tech Mono"', 'monospace'],
+            },
+            colors: {
+              past: {
+                DEFAULT: '#f59e0b',
+                glow: '#fbbf24',
+                dark: '#78350f',
+                bg: '#1c1305'
+              },
+              future: {
+                DEFAULT: '#06b6d4',
+                glow: '#22d3ee',
+                dark: '#164e63',
+                bg: '#04161f'
+              }
+            }
+          }
+        }
+      }
+    </script>
+    <script type="module" crossorigin src="./assets/index-WJTEqoIa.js"></script>
+    <link rel="stylesheet" crossorigin href="./assets/index-DLm6-HFp.css">
+  </head>
+  <body class="bg-black text-white antialiased overflow-x-hidden selection:bg-cyan-500 selection:text-black">
+    <div id="root"></div>
+  </body>
+</html>

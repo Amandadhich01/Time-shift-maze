@@ -7,6 +7,8 @@
 [![License](https://img.shields.io/badge/License-MIT-green.svg)](LICENSE)
 [![GitHub Pages](https://img.shields.io/badge/Deployment-GitHub%20Pages-blue?logo=github)](https://pages.github.com/)
 
+> 🎮 **[Click Here to Play the Live Game in Your Browser!](https://amandadhich01.github.io/Time-shift-maze/)**
+
 > **A mind-bending sci-fi puzzle game where you shift between parallel timelines (the Ancient Past and the Cyber Future) to phase through barriers, gather Chrono Shards, and escape the temporal anomaly.**
 
 Available as both a **cutting-edge React 19 web application** (playable directly in any browser with Web Audio procedural sound effects) and a **modernized 60 FPS Python/Pygame desktop edition**.
